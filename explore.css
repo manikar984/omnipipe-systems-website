@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  background: #f7f9fa;
+  color: #222;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0072ff 0%, #00c6ff 100%);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ffe082;
+}
+
+.explore-products {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.explore-products h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #0072ff;
+}
+
+.product-list {
+  list-style: decimal;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.product-item {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0,114,255,0.07);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.product-item h3 {
+  color: #00c6ff;
+  margin-bottom: 0.8rem;
+}
+
+footer {
+  background: #0072ff;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+}
